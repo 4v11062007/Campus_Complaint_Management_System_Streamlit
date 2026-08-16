@@ -83,11 +83,6 @@ if not st.session_state.logged_in:
             else:
                 st.error("❌ Invalid username, password or role.")
 
-        st.info(
-            "Demo Student Login: student / 1234\n\n"
-            "Demo Admin Login: admin / admin123"
-        )
-
 else:
 
     st.sidebar.title("🏫 Campus CMS")
